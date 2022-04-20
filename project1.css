@@ -1,0 +1,69 @@
+.navbar-name {
+    font-size: 17px;
+    color: rgb(136, 185, 136);
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+nav ul li a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12;
+  font-weight: 700;
+  color:rgb(122, 77, 153);
+}
+
+section {
+    color:antiquewhite;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.portfolioIcon {
+  color: rgb(4, 41, 19);
+}
+
+.square {
+  float:left;
+  position: relative;
+  width: 90%;
+  padding-bottom : 90%; /* = width for a 1:1 aspect ratio */
+  margin:1.66%;
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1{background-image:url('./eyesimage.png');}
+.img_2{background-image:url('./PacMan1.png');}
+.img_3{background-image:url('./mapimage.jpeg');}
+
+#myMusic {
+  width: 80%;
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 991px) {
+  #profilePic {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  #profilePic {
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #myMusic {
+    width: 100%;
+  }
+}
+
+.fontStyle {
+  color: rgb(6, 50, 24);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+}
