@@ -1,54 +1,54 @@
 .navbar-name {
-    font-size: 17px;
-    color: rgb(136, 185, 136);
-    font-weight: 700;
-    margin-left: 30px;
+  font-size: 17px;
+  color: rgb(241, 225, 205);
+  font-weight: 700;
+  margin-left: 30px;
 }
 
 nav ul li a {
-  position: relative;
-  text-decoration: none;
+position: relative;
+text-decoration: none;
 }
 
 nav ul li a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: rgb(209, 209, 162);
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: rgb(209, 209, 162);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 nav ul li a:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
+  transform-origin: left;
+  transform: scaleX(1);
+}
 
 section {
-    color:antiquewhite;
-    height: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  color:rgb(223, 207, 186);
+  height: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .portfolioIcon {
-  color: rgb(4, 41, 19);
+color: rgb(4, 41, 19);
 }
 
 .square {
-  float:left;
-  position: relative;
-  width: 90%;
-  padding-bottom : 90%; /* = width for a 1:1 aspect ratio */
-  margin:1.66%;
-  background-position:center center;
-  background-repeat:no-repeat;
-  background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+float:left;
+position: relative;
+width: 90%;
+padding-bottom : 90%; /* = width for a 1:1 aspect ratio */
+margin:1.66%;
+background-position:center center;
+background-repeat:no-repeat;
+background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
 }
 
 .img_1{background-image:url('./eyesimage.png');}
@@ -56,35 +56,31 @@ section {
 .img_3{background-image:url('./mapimage.jpeg');}
 
 #myMusic {
-  width: 80%;
-  max-width: 800px;
+width: 80%;
+max-width: 800px;
 }
 
 @media only screen and (max-width: 991px) {
-  #profilePic {
-    width: 80px;
-  }
+#profilePic {
+  width: 80px;
+}
 }
 
 @media only screen and (max-width: 630px) {
-  #profilePic {
-    width: 50px;
-  }
+#profilePic {
+  width: 50px;
+}
 }
 
 @media only screen and (max-width: 770px) {
-  #myMusic {
-    width: 100%;
-  }
+#myMusic {
+  width: 100%;
+}
 }
 
 .fontStyle {
-  color: rgb(6, 50, 24);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.nav-item {
-
+color: rgb(6, 50, 24);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+font-size: 20px;
 }
